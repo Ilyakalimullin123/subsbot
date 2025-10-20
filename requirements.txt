@@ -1,0 +1,6 @@
+aiogram==3.13.1
+python-dotenv
+APScheduler
+pytz
+SQLAlchemy==2.0.35
+asyncpg

@@ -1,0 +1,4 @@
+.env
+venv312/
+__pycache__/
+subscriptions.sqlite3
