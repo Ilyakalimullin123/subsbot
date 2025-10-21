@@ -515,7 +515,7 @@ async def delete_prompt(message: Message):
     # Можно удалять по красивому номеру из последнего /list
     LAST_LIST_MAP[message.from_user.id] = [s.id for s in subs]
     await message.answer(
-        "Напиши номер подписки из последнего списка (1, 2, 3, ...) или реальный ID из БД.\nНапример: 2"
+        "Напиши номер подписки из списка (1, 2, 3, ...) \nНапример: 2"
     )
 
 
